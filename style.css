@@ -5,37 +5,37 @@ body {
 
 /*Hyperlinks*/
 #mail, #img, #sign {
-    display: block;
     float: right;
     margin: 0px 10px 20px;
     padding-top: 10px;
 }
 
 #info, #shop {
-    display: block;
     float: left;
     margin: 0px 10px 20px;
     padding-top: 10px;
 }
 
 #sign /*Sign In Button*/ {
-    background-color: #483D8B;
-    padding: 10px;
+    background-color: steelblue;
+    padding: 10px 20px;
     color: white;
     border-radius: 4px;
+    font-weight: bold;
 }
 
 #hyp {
     font-size: 14px;
     color: darkgrey;
 }
+
  /*Logo and Search Box*/
 .logo {
     display: block;
-    margin: 0 auto;
+    margin: 0px 510px;
     width: 272px;
-    padding-top: 200px;
-    padding-bottom: 20px;
+    padding: 200px 0px 0px 20px !important;
+    padding-bottom: 20px !important;
 }
 
 
@@ -48,3 +48,15 @@ input[type="text"] {
     border-radius: 15px;
 }
 
+.leftbutton {
+    display: inline;
+    padding: 10px 28px;
+    text-align: center;
+    margin-left: 525px;
+}
+
+.rightbutton {
+    display: inline;
+    padding: 10px 20px;
+    text-align: center;
+}
