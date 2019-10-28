@@ -7,20 +7,27 @@ body {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 a:link {
-
+    color: #000000
 }
 
 a:hover {
     text-decoration: underline;
+    color: #000000
 }
 
-#mail, #img, #sign {
+#mail, #img, #sign, #app {
     float: right;
     margin: 0px 10px 20px;
     padding-top: 12px;
+    padding-right: 5px;
+}
+
+#app {
+    padding-top: 5px;
 }
 
 #sign /*Sign In Button*/ {
@@ -32,6 +39,7 @@ a:hover {
     color: white;
     border-radius: 2px;
     cursor: default;
+    margin-right: 20px;
 }
 
 #hyp {
@@ -49,7 +57,7 @@ a:hover {
 }
 
 
-input[type="text"] {
+ #sbox {
     display: block;
     margin: 0 auto;
     width: 522px;
@@ -81,26 +89,3 @@ input[type="text"] {
 
 /*Navigation bar*/
 
-nav {
-    position: absolute;
-    bottom: 0;
-    padding: 20px;
-    margin-left: 30px;
-    float: left;
-    font-size: 11px;
-    background-color: grey;
-    border-style: solid;
-    border-width: 2px;
-    border-color: darkgrey;
-}
-
-.navlink {
-    padding: 5px 20px;
-}
-
-.r {
-}
-
-#ad {
-    padding-left: 0px;
-}
