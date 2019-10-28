@@ -1,0 +1,24 @@
+body {
+    background-color: ghostwhite;
+}
+
+
+#mail, #img {
+    display: block;
+    float: right;
+    margin: 0px 10px;
+}
+
+#info, #shop {
+    display: block;
+    float: left;
+    margin: 0px 10px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 128px;
+    width: 272;
+    padding-top: 128;
+}
