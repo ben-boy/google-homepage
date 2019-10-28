@@ -1,24 +1,48 @@
 body {
     background-color: ghostwhite;
+    font-family: 'Roboto', sans-serif;
 }
 
-
-#mail, #img {
+/*Hyperlinks*/
+#mail, #img, #sign {
     display: block;
     float: right;
-    margin: 0px 10px;
+    margin: 0px 10px 20px;
+    padding-top: 10px;
 }
 
 #info, #shop {
     display: block;
     float: left;
-    margin: 0px 10px;
+    margin: 0px 10px 20px;
+    padding-top: 10px;
 }
 
+#sign /*Sign In Button*/ {
+    background-color: #483D8B;
+    /*padding: 15px;*/
+    color: white;
+}
+
+#hyp {
+    font-size: 14px;
+    color: darkgrey;
+}
+ /*Logo and Search Box*/
 .logo {
     display: block;
     margin: 0 auto;
-    margin-top: 128px;
-    width: 272;
-    padding-top: 128;
+    width: 272px;
+    padding-top: 200px;
+    padding-bottom: 20px;
 }
+
+
+input[type="text"] {
+    display: block;
+    margin: 0 auto;
+    width: 402px;
+    height: 30px;
+    border-width: 3px;
+}
+
