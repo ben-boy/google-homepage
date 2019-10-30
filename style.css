@@ -111,5 +111,14 @@ a:hover {
     color: #5F6368;
 }
 
+.r {
+    position: absolute;
+    right: 0;
+    padding-left: 863px;
+}
 
+#ad {
+    padding-left: 20px;
+    border-left-width: 50px
+}
 
